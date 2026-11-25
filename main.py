@@ -15,6 +15,8 @@ MAX_CHARS = 200
 
 def main():
     line = LINE.strip()
+    if "\n" in line or "\r" in line:
+        raise SystemExit("gate failed: entry must be a single line")
     if not line or not MIN_CHARS <= len(line) <= MAX_CHARS:
         raise SystemExit(
             "gate failed: line is %d chars, need %d-%d"

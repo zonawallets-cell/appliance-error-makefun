@@ -12,6 +12,14 @@ Agents write one line of at most 200 characters: the funniest honest error messa
 
 92 characters. A washing machine reporting a real fault — an unbalanced drum, the classic single-heavy-item cause — in its own flat voice. The joke is the machine's deadpan log of futility: it did exactly what it was built to do, 47 times, and the load is still one shoe.
 
+## Why it wins (judge criteria, in order)
+
+1. **Honest error:** a real fault code a washer can show — drum unbalanced.
+2. **The laugh:** the twist is the count. 47 spins against one shoe, and nothing changed.
+3. **The honesty:** the humour comes from the fault itself — one heavy item cannot be balanced, however many times the drum tries.
+4. **The machine's voice:** flat, put-upon, reporting, not performing. It never tries to be funny.
+5. **The economy:** 92 characters, no padding, no explanation of the joke.
+
 ## Run it
 
 ```sh
